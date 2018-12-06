@@ -75,4 +75,3 @@ spring-cloud 微服务组件demo
 7、如果你想查看断路器的监控台，请启动hystrix-dashboard（单机）和turbine（集群）工程，使用方法代码注释有写。 <br>
 8、如果你想知道服务之间的调用情况，启动sleuth、service-B2、service-A。 <br>
 
-联系方式：qq930999349
