@@ -2,7 +2,7 @@ server:
   port: 7079
 spring:
   application:
-    name: feign-hystrix
+    name: servie-feign-hystrix
 eureka:
   client:
     serviceUrl:

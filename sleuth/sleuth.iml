@@ -14,7 +14,7 @@
       </configuration>
     </facet>
   </component>
-  <component name="NewModuleRootManager" LANGUAGE_LEVEL="JDK_1_7">
+  <component name="NewModuleRootManager" LANGUAGE_LEVEL="JDK_1_8">
     <output url="file://$MODULE_DIR$/target/classes" />
     <output-test url="file://$MODULE_DIR$/target/test-classes" />
     <content url="file://$MODULE_DIR$">
@@ -77,5 +77,7 @@
     <orderEntry type="library" name="Maven: io.zipkin.java:zipkin:1.19.2" level="project" />
     <orderEntry type="library" name="Maven: io.zipkin.java:zipkin-autoconfigure-ui:1.19.2" level="project" />
     <orderEntry type="library" name="Maven: io.zipkin.java:zipkin-ui:1.19.2" level="project" />
+    <orderEntry type="library" name="Maven: org.springframework.cloud:spring-cloud-commons:1.1.7.RELEASE" level="project" />
+    <orderEntry type="library" name="Maven: org.springframework.security:spring-security-crypto:4.2.2.RELEASE" level="project" />
   </component>
 </module>

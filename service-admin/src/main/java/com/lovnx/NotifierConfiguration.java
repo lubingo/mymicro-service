@@ -1,14 +1,12 @@
 package com.lovnx;
 
+import de.codecentric.boot.admin.notify.Notifier;
+import de.codecentric.boot.admin.notify.RemindingNotifier;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
+import org.springframework.context.annotation.Primary;
 import org.springframework.scheduling.annotation.EnableScheduling;
-
-import com.netflix.governator.annotations.binding.Primary;
-
-import de.codecentric.boot.admin.notify.Notifier;
-import de.codecentric.boot.admin.notify.RemindingNotifier;
 
 /**
  * 
