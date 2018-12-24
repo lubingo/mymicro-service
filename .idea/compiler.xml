@@ -15,7 +15,6 @@
         <module name="ribbon" />
         <module name="service-A" />
         <module name="service-admin" />
-        <module name="service-B" />
         <module name="service-B2" />
         <module name="sleuth" />
         <module name="turbine" />
@@ -29,7 +28,7 @@
       <module name="hystrix-dashboard" target="1.8" />
       <module name="hystrix-feign" target="1.8" />
       <module name="hystrix-ribbon" target="1.8" />
-      <module name="micro-service" target="1.8" />
+      <module name="micro-service" target="1.6" />
       <module name="ribbon" target="1.8" />
       <module name="service-A" target="1.8" />
       <module name="service-admin" target="1.7" />
@@ -37,7 +36,7 @@
       <module name="service-B2" target="1.7" />
       <module name="sleuth" target="1.8" />
       <module name="turbine" target="1.7" />
-      <module name="zuul" target="1.7" />
+      <module name="zuul" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>
