@@ -11,7 +11,7 @@
       <module fileurl="file://$PROJECT_DIR$/micro-service.iml" filepath="$PROJECT_DIR$/micro-service.iml" />
       <module fileurl="file://$PROJECT_DIR$/ribbon/ribbon.iml" filepath="$PROJECT_DIR$/ribbon/ribbon.iml" />
       <module fileurl="file://$PROJECT_DIR$/service-A/service-A.iml" filepath="$PROJECT_DIR$/service-A/service-A.iml" />
-      <module fileurl="file://$PROJECT_DIR$/service-MySpringCloud/service-B2.iml" filepath="$PROJECT_DIR$/service-MySpringCloud/service-B2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/service-MySpringCloud/service-MySpringCloud.iml" filepath="$PROJECT_DIR$/service-MySpringCloud/service-MySpringCloud.iml" />
       <module fileurl="file://$PROJECT_DIR$/service-admin/service-admin.iml" filepath="$PROJECT_DIR$/service-admin/service-admin.iml" />
       <module fileurl="file://$PROJECT_DIR$/sleuth/sleuth.iml" filepath="$PROJECT_DIR$/sleuth/sleuth.iml" />
       <module fileurl="file://$PROJECT_DIR$/turbine/turbine.iml" filepath="$PROJECT_DIR$/turbine/turbine.iml" />
