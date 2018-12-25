@@ -1,5 +1,6 @@
 package com.lovnx;
 
+import com.netflix.loadbalancer.RoundRobinRule;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.cloud.client.discovery.EnableDiscoveryClient;
@@ -22,7 +23,7 @@ public class RibbonApplication {
 	
     @Bean
     public IRule ribbonRule() {
-        return new RandomRule();
+        return new RoundRobinRule();
     }
 
 	public static void main(String[] args) {

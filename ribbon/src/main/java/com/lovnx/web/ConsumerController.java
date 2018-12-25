@@ -20,7 +20,7 @@ public class ConsumerController {
     @RequestMapping(value = "/add", method = RequestMethod.GET)
     public String add(@RequestParam Integer a,@RequestParam Integer b) {
     	this.loadBalancerClient.choose("service-MySpringCloud");//随机访问策略
-        return restTemplate.getForEntity("http://MySpringCloud/add?a="+a+"&b="+b, String.class).getBody();
+        return restTemplate.getForEntity("http://service-MySpringCloud/add?a="+a+"&b="+b, String.class).getBody();
     	
     }
     

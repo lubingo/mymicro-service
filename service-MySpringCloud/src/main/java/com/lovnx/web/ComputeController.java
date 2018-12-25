@@ -20,7 +20,7 @@ public class ComputeController {
     @Autowired
     private DiscoveryClient client;
 
-    @RequestMapping(value = "/**" ,method = RequestMethod.GET)
+    @RequestMapping(value = "/add" ,method = RequestMethod.GET)
     public String add(@RequestParam Integer a, @RequestParam Integer b,HttpServletRequest request) {
     	System.out.println(request.getRequestURL());
         ServiceInstance instance = client.getLocalServiceInstance();
