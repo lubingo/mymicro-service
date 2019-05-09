@@ -7,6 +7,9 @@ import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.context.annotation.Primary;
 import org.springframework.scheduling.annotation.EnableScheduling;
+import org.springframework.scheduling.annotation.Scheduled;
+
+import java.util.concurrent.TimeUnit;
 
 /**
  * 
@@ -32,14 +35,14 @@ public class NotifierConfiguration {
     public RemindingNotifier remindingNotifier() {
         RemindingNotifier remindingNotifier = new RemindingNotifier(notifier);
         //设定时间，5分钟提醒一次
-//        remindingNotifier.setReminderPeriod(TimeUnit.MINUTES.toMillis(5)); 
+        remindingNotifier.setReminderPeriod(TimeUnit.MINUTES.toMillis(5));
         //设定监控服务状态，状态改变为给定值的时候提醒
         remindingNotifier.setReminderStatuses(reminderStatuses);
         return remindingNotifier;
     }
 
-//    @Scheduled(fixedRate = 60_000L) 
-//    public void remind() {
-//        remindingNotifier().sendReminders();
-//    }
+    @Scheduled(fixedRate = 60_000L)
+    public void remind() {
+        remindingNotifier().sendReminders();
+    }
 }
